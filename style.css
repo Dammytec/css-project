@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* body */
+  body{
+    padding-right: 39px;
+    background-color: rgb(234, 234, 239);
+   
+  }
+  /* header section */
+  .home{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .lesson{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .assignment{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .News{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .ask{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .header{
+    background-color: white;
+    height: 550px;
+    width: 250px;
+   position: fixed;
+    
+  }
+  
+  .headers{
+    padding-top: 30px;
+    padding-left: 45px;
+  }
+  .bars{
+    padding-top: 50px;
+  }
+  .edu{
+    display: flex;
+    align-items: center;
+  }
+  /* section */
+  .body{
+    display: flex;
+    justify-content: end;
+  }
+  .textmage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .mage{
+    background-image: url(https://th.bing.com/th/id/OIP.di-cWxbFA8w7Nv5vqFFO7wHaFK?pid=ImgDet&w=161&h=112&c=7);
+    height: 250px;
+   width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+  }
+  .firsts{
+    display: flex;
+    padding-left: 40px;
+  }
+  .magetext{
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+  }
+  .first{
+    background-color: white;
+    height: 400px;
+    width: 765px;
+    margin-top: 10px;
+  }
+  .flextext{
+    height: 300px;
+    width: 200px;
+    padding-left: 20px;
+  }
+  .pics{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .flexmage{
+    background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec30b2ee38a3d11fabb9eb0_Screenshot%202020-05-18%20at%2023.24.03-p-500.png);
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .flexs{
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  .html{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .csstext{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .cssmage{
+    background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec30ab3c489210852558090_Screenshot%202020-05-18%20at%2023.22.31-p-500.png);
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .css{
+    background-color: white;
+    width: 250px;
+    height: 400px;
+   
+  }
+  .action{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .intertext{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .intermage{
+    background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec30bf4beb574713e5b84d9_Screenshot%202020-05-18%20at%2023.27.50-p-500.png);
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .interaction{
+    background-color: white;
+    width: 250px;
+    height: 400px;
+  }
+  .background{
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .button-1{
+   display: flex;
+   justify-content: end;
+  }
+  .grid{
+    display: flex;
+  }
+  .pages{
+    display: flex;
+    align-self: center;
+    gap: 70px;
+  }
+  .one{
+    background-color: white;
+    height: 100px;
+    width: 770px;
+  }
+  .structure{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  .naming{
+    background-color: white;
+    height: 100px;
+    width: 770px;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  .create{
+    background-color: white;
+    height: 100px;
+    width: 770px;
+  }
+  .button-2{
+    display: flex;
+    justify-content: right;
+  }
+  .castmage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .casts{
+    height: 150px;
+    width: 200px;
+    padding-top: 20px;
+    
+  }
+  .cast{
+    background-color: white;
+    height: 250px;
+    width: 290px;
+    margin-bottom: 10px;
+  }
+  .codes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .coded{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .code{
+    background-color: white;
+    height: 230px;
+    width: 290px;
+    padding-top: 20px;
+  }
+  .contents{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .contented{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .content{
+    background-color: white;
+    height: 250px;
+    width: 290px;
+  }
+  .net{
+    display: flex;
+    gap: 20px;
+  }
+  .but{
+   margin-top: 20px;
+   display: flex;
+   justify-content: right;
+  }
+  .power{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 70px;
+    color: rgb(154, 154, 190);
+  }
+  .lin{
+    display: flex;
+    justify-content: right;
+    color: rgb(154, 154, 190) ;
+    margin-bottom: 40px;
+  }
+  .rat{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .rats{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .rated{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .rateds{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .ratede{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .slidetext{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+  }
+  .slideflex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .slidemage{
+    background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec30a70c48921daff557fff_Screenshot%202020-05-18%20at%2023.21.25-p-500.png);
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slide{
+    background-color: white;
+    height: 420px;
+    width: 250px;
+  }
+  .cmstext{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+  }
+  .cmsflex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .cmsmage{
+    background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec30b3a226b816156010601_Screenshot%202020-05-18%20at%2023.24.40-p-500.png);
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cmss{
+    background-color: white;
+    height: 420px;
+    width: 250px;
+  }
+  .slides{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .upcoming{
+    background-color: white;
+    height: 60px;
+  }
+  .up{
+   margin-top: 20px;
+  }
+  .calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grids{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .whymage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .whytext{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .whites{
+    background-color: white;
+    height: 250px;
+    width: 245px;
+  }
+  .practicemage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .practicetext{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .practice{
+    background-color: white;
+    height: 250px;
+    width: 245px;
+  }
+  .white{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .question{
+    margin-top: 100px;
+  }
+  input[type="text"]{
+    border: 20px solid white;
+    margin-top: 20px;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+  }
+  .summit{
+    height: 40px;
+    width: 70px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+  }
+  
+ 
+ 
+    
+  
+
+  /* Media query
+  small mobile  device - screen size (410px and 550px)
+  medium mobile device - screen size (550px and 768px)
+  tablet divices - screen size (768px and 1024px)
+  laptop device - screen size (1024px and 1200px)
+  desktop device - screen size (1200px and 1800px)
+*/
+
+
+
+
+
+@media screen and (min-width:410px) and (max-width: 550px){
+  body{
+    background-color: green;
+  }
+  .header{
+    position: absolute;
+    padding-top: 0;
+    width: 500px;
+    height: 80px;
+    
+  }
+  .bars{
+    padding-top: 0;
+   
+  }
+  .all{
+    padding-left: 300px;
+    margin-top: 30px;
+  }
+  .home{
+    margin-bottom:0 ;
+  }
+  .lesson{
+    margin-bottom: 0;
+  }
+  .news{
+    margin-bottom: 0;
+  }
+  .assignment{
+    margin-bottom: 0;
+  }
+  .headers{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: px;
+  }
+  .all{
+    padding-left: 0;
+  }
+  .firsts{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .first{
+    width: 450px;
+    height: 700px;
+  }
+  .background{
+    display: flex;
+    flex-direction: column;
+  }
+  .flexmage{
+    width: 400px;
+    height: 300px;
+  }
+  .mage{
+    width: 400px;
+    height: 300px;
+    padding-right: 30px;
+  }
+
+
+}
